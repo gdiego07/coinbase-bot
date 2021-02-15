@@ -1,1 +1,1 @@
-# coinbase-bot
+# Coinbase-Bot
