@@ -1,0 +1,24 @@
+{
+  "name": "coinbase-bot",
+  "version": "1.0.0",
+  "description": "An app to retrieve live crypto currency data",
+  "main": "index.js",
+  "scripts": {
+    "prod": "NODE_ENV=production NODE_PATH=src node src/index.js",
+    "start": "NODE_PATH=src node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdiego07/coinbase-bot.git"
+  },
+  "author": "Diego Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdiego07/coinbase-bot/issues"
+  },
+  "homepage": "https://github.com/gdiego07/coinbase-bot#readme",
+  "dependencies": {
+    "coinbase": "^2.0.8"
+  }
+}
